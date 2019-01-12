@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds" name="linux"/>
+  <remote fetch="https://github.com/hypervisorForFun" name="hypervisorForFun"/>
+  <remote fetch="https://github.com/qemu" name="qemu"/>
+  <remote fetch="https://xenbits.xen.org/git-http" name="xen" />
+  <default remote="hypervisorForFun" revision="master"/>
+  <project name="build" path="build" />
+  <project name="linux" path="linux" remote="linux" revision="refs/tags/v4.19" />
+  <project name="xen" path="xen" remote="xen" revision="refs/tags/RELEASE-4.11.1" />
+  <project name="qemu" path="qemu" remote="qemu" revision="refs/tags/v3.0.0" />
+</manifest>
