@@ -18,7 +18,7 @@
   
   <project name="soc_term" path="soc_term" remote="linaro-swg" revision="5493a6e7c264536f5ca63fe7511e5eed991e4f20"/>
   
-  <project name="gen_rootfs" path="gen_rootfs" remote="hypervisorForFun" revision="fe617d470e45778c909038bf3e7ca15174a4f893"/>
+  <project name="gen_rootfs" path="gen_rootfs" remote="hypervisorForFun" revision="refs/tags/v1.0"/>
   
   <project name="bios_qemu_tz_arm" path="bios_qemu_tz_arm" remote="linaro-swg" revision="0271acbfa81d93e64c2fdd6ae8b0be14a8c45719"/>
   
