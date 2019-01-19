@@ -22,5 +22,5 @@
   
   <project name="bios_qemu_tz_arm" path="bios_qemu_tz_arm" remote="linaro-swg" revision="0271acbfa81d93e64c2fdd6ae8b0be14a8c45719"/>
   
-  <project name="busybox" path="busybox" remote="busybox" revision="refs/tags/1_29_stable"/>
+  <project name="busybox" path="busybox" remote="busybox" revision="refs/tags/1_29_0"/>
 </manifest>
