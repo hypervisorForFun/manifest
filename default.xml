@@ -5,7 +5,7 @@
   <remote fetch="https://github.com/qemu" name="qemu"/>
   <remote fetch="https://xenbits.xen.org/git-http" name="xen" />
   <remote fetch="https://github.com/linaro-swg" name="linaro-swg"/>
-  <remote fetch="https://github.com/mirror/busybox" name="busybox"/>
+  <remote fetch="https://github.com/mirror" name="busybox"/>
   <default remote="hypervisorForFun" revision="master"/>
   
   <project name="build" path="build" />
