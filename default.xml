@@ -5,7 +5,7 @@
   <remote fetch="https://github.com/qemu" name="qemu"/>
   <remote fetch="https://xenbits.xen.org/git-http" name="xen" />
   <remote fetch="https://github.com/linaro-swg" name="linaro-swg"/>
-  <remote fetch="git://busybox.net" name="busybox"/>
+  <remote fetch="https://github.com/mirror/busybox" name="busybox"/>
   <default remote="hypervisorForFun" revision="master"/>
   
   <project name="build" path="build" />
@@ -22,5 +22,5 @@
   
   <project name="bios_qemu_tz_arm" path="bios_qemu_tz_arm" remote="linaro-swg" revision="0271acbfa81d93e64c2fdd6ae8b0be14a8c45719"/>
   
-  <project name="busybox" path="busybox" remote="busybox" revision="dbf5a6da6a4295ce26edd1ce34fde567d19afa02"/>
+  <project name="busybox" path="busybox" remote="busybox" revision="refs/tags/1_29_stable"/>
 </manifest>
