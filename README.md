@@ -6,8 +6,9 @@ part:
 
 1. how to pull code of this projet:
 please use below command to pull all source code:
-repo init -u https://github.com/hypervisorForFun/manifest.git -m default.xml --repo-url=git://codeaurora.org/tools/repo.git
 
+repo init -u https://github.com/hypervisorForFun/manifest.git -m default.xml --repo-url=git://codeaurora.org/tools/repo.git
+repo sync
 
 2. Ho to use building system in this project
 A. download toolchain by below command:
