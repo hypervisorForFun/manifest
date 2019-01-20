@@ -14,5 +14,4 @@ A. download toolchain by below command:
    make -f toolchain.mk toolchains
    
 B. build system:
-   cd build
-   make -f qemu_v8.mk all
+   cd build;make -f qemu_v8.mk all
