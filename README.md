@@ -36,7 +36,7 @@ official) mirror for the project at GitHub before adding a new remote.
 # 2. Layout of contents
 #### 2.1 Sections
 To have some kind of structure of the files, we have split them up in three
-sections, one for pure OP-TEE gits, one for OP-TEE supporting gits found at
+sections, one for pure linux gits, one for xen supporting gits found at
 linaro-swg and then a third, `misc` section where everything else can be found.
 I.e., a template looks like this (this also includes the default remote for
 clarity):
@@ -47,7 +47,6 @@ clarity):
 
         <default remote="github" revision="master" />
 
-        <!-- OP-TEE gits -->
         <!-- linaro-swg gits -->
         <!-- Misc gits -->
 </manifest>

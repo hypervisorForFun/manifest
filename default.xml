@@ -10,6 +10,8 @@
   
   <project name="build" path="build" />
   
+  <project name="uefi_image" path="uefi_image" />
+  
   <project name="linux" path="linux" remote="linux" revision="refs/tags/v4.19.16" />
   
   <project name="xen" path="xen" remote="xen" revision="refs/tags/RELEASE-4.11.1" />
