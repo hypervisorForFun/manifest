@@ -7,6 +7,7 @@
   <remote fetch="https://github.com/mirror" name="busybox"/>
   <default remote="hypervisorForFun" revision="master"/>
   
+  <project name="build" path="build" />
   <project name="linux" path="linux" remote="linux" revision="refs/tags/v4.19.16" />
   <project name="qemu" path="qemu" remote="qemu" revision="refs/tags/v3.0.0" />
   <project name="soc_term" path="soc_term" remote="linaro-swg" revision="5493a6e7c264536f5ca63fe7511e5eed991e4f20"/>
