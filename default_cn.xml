@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote fetch="https://mirrors.tuna.tsinghua.edu.cn/git/" name="linux-stable"/>
+  <remote fetch="https://github.com/hypervisorForFun" name="hypervisorForFun"/>
+  <remote fetch="https://github.com/qemu" name="qemu"/>
+  <remote fetch="https://xenbits.xen.org/git-http" name="xen" />
+  <remote fetch="https://github.com/linaro-swg" name="linaro-swg"/>
+  <remote fetch="https://github.com/mirror" name="busybox"/>
+  <remote fetch="https://github.com/tianocore" name="edk2"/>
+  <default remote="hypervisorForFun" revision="master"/>
+  
+  <project name="build" path="build" />
+  
+  <project name="uefi_image" path="uefi_image" />
+  
+  <project name="linux-stable" path="linux" remote="linux-stable" revision="refs/tags/v4.19.16" />
+  
+  <project name="xen" path="xen" remote="xen" revision="refs/tags/RELEASE-4.11.1" />
+  
+  <project name="qemu" path="qemu" remote="qemu" revision="refs/tags/v3.0.0" />
+  
+  <project name="soc_term" path="soc_term" remote="linaro-swg" revision="5493a6e7c264536f5ca63fe7511e5eed991e4f20"/>
+  
+  <project name="gen_rootfs" path="gen_rootfs" remote="hypervisorForFun" revision="refs/tags/v1.0"/>
+  
+  <project name="bios_qemu_tz_arm" path="bios_qemu_tz_arm" remote="linaro-swg" revision="0271acbfa81d93e64c2fdd6ae8b0be14a8c45719"/>
+  
+  <project name="busybox" path="busybox" remote="busybox" revision="refs/tags/1_29_0"/>
+  
+  <project name="edk2" path="edk2" remote="edk2" revision="refs/tags/edk2-stable201811"/>
+</manifest>
